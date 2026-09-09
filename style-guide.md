@@ -13,13 +13,13 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Green 400: hsl(180, 29%, 50%)
+- Green 400: hsl(180,29%,50%)
 
 ### Neutral
 
-- Green 50 (Background): hsl(180, 52%, 96%)
-- Gray 400: hsl(180, 8%, 52%)
-- Green 900: hsl(180, 14%, 20%)
+- Green 50 (Background): hsl(180,52%,96%)
+- Gray 400: hsl(180,8%,52%)
+- Green 900: hsl(180,14%,20%)
 
 ## Typography
 
