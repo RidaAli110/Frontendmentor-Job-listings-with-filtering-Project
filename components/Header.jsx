@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <header class='bg-[hsl(180,35%,47%)]'>
+    <header className='bg-[hsl(180,31%,44%)]'>
       <img
-        class='block w-full h-35 object-cover pointer-events-none'
+        className='block w-full h-35 object-cover pointer-events-none'
         src='/images/bg-header-desktop.svg'
         alt='Header image'
       />
@@ -11,8 +11,3 @@ function Header() {
 }
 
 export default Header;
-// display: block;
-// width: 100%;
-// height: 270px;
-// object-fit: cover;
-// pointer-events: none;
