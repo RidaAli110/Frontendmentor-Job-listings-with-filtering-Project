@@ -1,16 +1,17 @@
+import JobTagsButton from './JobTagsButton';
 
-
-export default function JobTags({job}) {
+export default function JobTags({ job }) {
   return (
-    <div className='flex ml-auto gap-2'>
-      <button>{job.role}</button>
-      <button>{job.level}</button>
+    <div className='flex flex-wrap items-center md:ml-auto gap-2 
+    border-t border-t-gray-300 md:border-t-0 pt-4 md:pt-0'>
+      <JobTagsButton>{job.role}</JobTagsButton>
+      <JobTagsButton>{job.level}</JobTagsButton>
       {job.languages.map((language) => {
-        return <button key={language}>{language}</button>;
+        return <JobTagsButton key={language}>{language}</JobTagsButton>;
       })}
 
       {job.tools.map((tool) => {
-        return <button key={tool}>{tool}</button>;
+        return <JobTagsButton key={tool}>{tool}</JobTagsButton>;
       })}
     </div>
   );
