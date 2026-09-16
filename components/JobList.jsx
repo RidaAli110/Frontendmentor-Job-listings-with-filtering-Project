@@ -13,7 +13,10 @@ export default function JobList() {
   }, []);
 
   return (
-    <section className='flex flex-col justify-center mt-20 mx-5 md:mx-0 gap-5'>
+    <section
+      className='flex flex-col justify-center mt-20
+     mb-8 mx-7 md:mx-20 md:mb-20 gap-5'
+    >
       {jobData.map((job) => {
         return <Card key={job.id} job={job} />;
       })}
