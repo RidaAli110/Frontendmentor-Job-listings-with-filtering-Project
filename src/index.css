@@ -5,7 +5,8 @@
   --blue-text: hsl(180, 29%, 50%);
   --grey-text: hsl(180, 8%, 52%);
   --bg-color: hsl(180, 52%, 96%);
-  --job-tag-bg: hsl(180,52%,96%);
+  --job-tag-bg: hsl(180, 52%, 96%);
+  --footer-link-color: hsl(228, 45%, 44%);
 }
 body {
   font-family: 'League Spartan', sans-serif;

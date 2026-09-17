@@ -2,8 +2,10 @@ import JobTagsButton from './JobTagsButton';
 
 export default function JobTags({ job }) {
   return (
-    <div className='flex flex-wrap items-center md:ml-auto gap-2 
-    border-t border-t-gray-300 md:border-t-0 pt-4 md:pt-0'>
+    <div
+      className='flex flex-wrap items-center lg:ml-auto gap-2 
+  border-t border-t-gray-300 pt-4 lg:border-t-0 lg:pt-0'
+    >
       <JobTagsButton>{job.role}</JobTagsButton>
       <JobTagsButton>{job.level}</JobTagsButton>
       {job.languages.map((language) => {
