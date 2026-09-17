@@ -44,7 +44,7 @@ export default function Card({ job }) {
         </div>
         {/* Job details */}
         <div className='flex flex-col font-bold gap-3'>
-          <p>{job.position}</p>
+          <p className='hover:text-(--blue-text) cursor-pointer'>{job.position}</p>
           <div
             className='flex flex-wrap flex-row gap-3 text-sm font-light text-(--grey-text)
            '
