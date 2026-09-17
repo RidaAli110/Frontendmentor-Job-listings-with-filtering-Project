@@ -1,0 +1,15 @@
+export default function Footer() {
+  return (
+    <footer className='text-xs text-center'>
+      Challenge by{' '}
+      <a
+        className='text-(--footer-link-color) underline hover:text-blue-600'
+        href='https://www.frontendmentor.io?ref=challenge'
+      >
+        Frontend Mentor
+      </a>
+      . Coded by{' Rida'}
+      <a href='#'></a>.
+    </footer>
+  );
+}
