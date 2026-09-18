@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className='text-xs text-center'>
       Challenge by{' '}
       <a
-        className='text-(--footer-link-color) underline hover:text-blue-600'
+        className='text-(--footer-link-color) font-bold underline hover:text-blue-600'
         href='https://www.frontendmentor.io?ref=challenge'
       >
         Frontend Mentor
