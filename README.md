@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://job-listings-with-filtering-project.netlify.app]
+- Live Site URL: https://job-listings-with-filtering-project.netlify.app
 
 
 ### Built with
