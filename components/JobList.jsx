@@ -59,7 +59,7 @@ export default function JobList() {
     <section
       className={`flex flex-col justify-center relative mt-20
     mb-8 mx-7 lg:items-center lg:mx-20 lg:mb-20 gap-15 lg:gap-5
-    ${filters.length !== 0 ? 'max-[400px]:pt-10' : ''}`}
+    ${filters.length !== 0 ? 'max-[400px]:pt-11' : ''}`}
     >
       {filters.length !== 0 && (
         <FilterBar

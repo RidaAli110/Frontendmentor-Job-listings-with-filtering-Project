@@ -3,7 +3,7 @@ import JobTags from './JobTags';
 export default function Card({ job, handleFilter }) {
   return (
     <div
-      className={` flex flex-col lg:flex-row  relative  gap-6 p-6 pt-10 lg:pt-6
+      className={` flex flex-col lg:flex-row  relative  gap-5 p-6 pt-10 lg:pt-6
         max-w-6xl w-full bg-gray-50 shadow-[0_2px_6px_rgba(0,0,0,0.08)] rounded-sm
      ${job.featured ? 'border-l-4 border-l-(--blue-text)' : ''}`}
     >
@@ -14,9 +14,9 @@ export default function Card({ job, handleFilter }) {
         alt='Company Logo'
       />
       {/* Container for company info and job details */}
-      <section className='flex flex-col  gap-3  '>
+      <section className='flex flex-col  gap-1  '>
         {/* Company info */}
-        <div className='flex flex-wrap gap-4'>
+        <div className='flex flex-wrap gap-3'>
           <h1
             className='  text-(--blue-text) font-bold text-sm mb-1
           hover:text-(--blue-text)'
@@ -43,10 +43,12 @@ export default function Card({ job, handleFilter }) {
           )}
         </div>
         {/* Job details */}
-        <div className='flex flex-col font-bold gap-3'>
-          <p className='hover:text-(--blue-text) cursor-pointer'>{job.position}</p>
+        <div className='flex flex-col gap-2'>
+          <p className='font-bold text-lg hover:text-(--blue-text) cursor-pointer'>
+            {job.position}
+          </p>
           <div
-            className='flex flex-wrap flex-row gap-3 text-sm font-light text-(--grey-text)
+            className='flex flex-wrap flex-row gap-3 text-sm font-[450] text-(--grey-text)
            '
           >
             <p className='whitespace-nowrap'>{job.postedAt}</p>
