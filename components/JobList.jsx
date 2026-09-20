@@ -15,8 +15,6 @@ export default function JobList() {
     } else {
       setFilters([...filters, filter]);
     }
-
-    console.log(filters);
   };
 
   const removeFilter = (filter) => {
