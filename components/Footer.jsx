@@ -8,8 +8,7 @@ export default function Footer() {
       >
         Frontend Mentor
       </a>
-      . Coded by{' Rida'}
-      <a href='#'></a>.
+      . Coded by Rida
     </footer>
   );
 }
