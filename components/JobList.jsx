@@ -67,7 +67,7 @@ export default function JobList() {
         />
       )}
       {filteredJobs.map((job) => {
-        return <Card key={job.id} job={job} handleFilter={handleFilter} />;
+        return <Card key={job.id} filters={filters} job={job} handleFilter={handleFilter} />;
       })}
     </section>
   );

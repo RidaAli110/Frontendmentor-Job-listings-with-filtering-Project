@@ -1,6 +1,6 @@
 import JobTags from './JobTags';
 
-export default function Card({ job, handleFilter }) {
+export default function Card({ job, handleFilter, filters }) {
   return (
     <div
       className={` flex flex-col lg:flex-row  relative  gap-5 p-6 pt-10 lg:pt-6
@@ -60,7 +60,7 @@ export default function Card({ job, handleFilter }) {
         </div>
       </section>
       {/* Job tags */}
-      <JobTags job={job} handleFilter={handleFilter} />
+      <JobTags filters={filters} job={job} handleFilter={handleFilter} />
     </div>
   );
 }

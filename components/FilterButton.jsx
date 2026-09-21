@@ -12,7 +12,11 @@ export default function FilterButton({ children, removeFilter }) {
         className=' self-stretch hover:bg-black bg-(--blue-text) p-1
       rounded-r '
       >
-        <img src='/images/icon-remove.svg' alt='remove' />
+        <img
+          src='/images/icon-remove.svg'
+          aria-label={`Remove ${children} filter`}
+          alt=''
+        />
       </button>
     </div>
   );
