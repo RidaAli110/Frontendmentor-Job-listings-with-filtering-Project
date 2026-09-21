@@ -6,7 +6,10 @@ function App() {
   return (
     <div className='min-h-screen flex flex-col'>
       <Header />
-      <JobList />
+      <main>
+        <h1 className='sr-only'>Job Listings</h1>
+        <JobList />
+      </main>
       <Footer />
     </div>
   );

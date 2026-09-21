@@ -17,12 +17,12 @@ export default function Card({ job, handleFilter }) {
       <section className='flex flex-col  gap-1  '>
         {/* Company info */}
         <div className='flex flex-wrap gap-3'>
-          <h1
+          <p
             className='  text-(--blue-text) font-bold text-sm mb-1
           hover:text-(--blue-text)'
           >
             {job.company}
-          </h1>
+          </p>
           {job.new && (
             <p
               className=' flex justify-center items-center text-white 
@@ -44,9 +44,9 @@ export default function Card({ job, handleFilter }) {
         </div>
         {/* Job details */}
         <div className='flex flex-col gap-2'>
-          <p className='font-bold text-lg hover:text-(--blue-text) cursor-pointer'>
+          <h2 className='font-bold text-lg hover:text-(--blue-text) cursor-pointer'>
             {job.position}
-          </p>
+          </h2>
           <div
             className='flex flex-wrap flex-row gap-3 text-sm font-[450] text-(--grey-text)
            '
