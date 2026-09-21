@@ -44,7 +44,7 @@ export default function Card({ job, handleFilter }) {
         </div>
         {/* Job details */}
         <div className='flex flex-col gap-2'>
-          <h2 className='font-bold text-lg hover:text-(--blue-text) cursor-pointer'>
+          <h2 className='font-bold text-lg'>
             {job.position}
           </h2>
           <div
